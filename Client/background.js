@@ -1,11 +1,11 @@
 let urlScores = [];
 const specialChar = /[^A-Za-z0-9:\/.\-]/g;
-var categories = ["xxx", "stream", "gambling", "porn", "bet", "betting", "sport", "download", "mp3", "free"];
+let categories = ["xxx", "stream", "gambling", "porn", "bet", "betting", "sport", "download", "mp3", "free"];
 let totalTimeInMinutes = 280; //startZeit
 let startScore = 1; //Score startet bei 1
 let endScore = 0;
 let totalSeconds = 0;
-var pScore = 0;
+let pScore = 0;
 
 // Wird ausgelöst, wenn eine Tab aktiv wird.
 chrome.tabs.onUpdated.addListener(trackURLRisk);
