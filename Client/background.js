@@ -1,6 +1,6 @@
 let urlScores = [];
 const specialChar = /[^A-Za-z0-9:\/.\-]/g;
-let categories = ["xxx", "stream", "gambling", "porn", "bet", "betting", "sport", "download", "mp3", "free"];
+const categories = ["xxx", "stream", "gambling", "porn", "bet", "betting", "sport", "download", "mp3", "free"];
 let totalTimeInMinutes = 280; //startZeit
 let startScore = 1; //Score startet bei 1
 let endScore = 0;
